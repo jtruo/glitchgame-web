@@ -14,11 +14,14 @@ export default function Home() {
         <h1 className={styles.title}>
           ARLiveshare
         </h1>
+        <Image width={400} height={400} src="/logo-plain.svg"></Image>
         <p className={styles.description}>
           Stuck in line? Want to watch a video with a friend? Share your web browser and videos to your friends in AR
         </p>
       </main>
       <footer className={styles.footer}>
+        <Image width={30} height={30} src="/androidrobot.svg"></Image>
+        <Image width={25} height={30} src="/applewhite.svg"></Image>
       </footer>
     </div>
   )
