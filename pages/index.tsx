@@ -6,17 +6,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ARLiveshare</title>
+        <title>Beat FX</title>
         <meta name="description" content="sharing ar content " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ARLiveshare
+          Beat FX
         </h1>
         <Image width={400} height={400} src="/logo-plain.svg"></Image>
         <p className={styles.description}>
-          Stuck in line? Want to watch a video with a friend? Share your web browser and videos to your friends in AR
+          A rhythm game inspired by Sound Voltex
         </p>
       </main>
       <footer className={styles.footer}>
