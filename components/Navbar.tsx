@@ -5,7 +5,7 @@ function Navbar() {
     <nav>
         <Link href="/">
             <a>
-                <div className="logo"><h1>Beat FX</h1></div>
+                <div className="logo"><h1>Glitch Game</h1></div>
             </a>
         </Link>
         <Link href="about"><a>About</a></Link>
