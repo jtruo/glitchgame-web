@@ -4,13 +4,14 @@ import SEO from '../components/SEO'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SEO pageTitle={"Beat FX"} pageDescription={"AR/VR rhythm game inspired by Sound Voltex"}></SEO>
+      <SEO pageTitle={"Glitch Game"} pageDescription={"A 3D rhythm game"}></SEO>
         <h1 className={styles.title}>
-          Beat FX
+          Glitch Game
         </h1>
         <p className={styles.description}>
-          A rhythm game inspired by Sound Voltex
+          A 3D rhythm game
         </p>
+
     </div>
   )
 }
